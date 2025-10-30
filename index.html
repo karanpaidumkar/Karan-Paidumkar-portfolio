@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan - Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">KARAN PAIDUMKAR</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#foot">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection" id="home">
+            <div class="leftsection">
+                <div class="image"><img src="bg-removebg-preview.png" alt=""></div>
+                Hi, My name is <span class="purple">Karan Paidumkar</span>
+                <div>and i am a passionate</div>
+                <div><!-- Element to contain animated typing -->
+                    <span id="element"></span>
+                    <!-- Load library from the CDN -->
+                    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                    <!-- Setup and start animation! -->
+                    <script>
+                        var typed = new Typed('#element', {
+                            strings: ['Web Developer', 'Python Developer','C Programmer','MySQL Developer'],
+                            typeSpeed: 50,
+                            backspeed: 50,
+                            loop:true,
+                        });
+                    </script>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="portfolio.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection" id="project">
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title">HTML Developer (2023-2024)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                        veritatis dolores aperiam similique rem sunt tempora error tempore quibusdam! Unde beatae
+                        voluptas recusandae nemo eveniet?</div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">Python Developer (2024-2025)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                        veritatis dolores aperiam similique rem sunt tempora error tempore quibusdam! Unde beatae
+                        voluptas recusandae nemo eveniet?</div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">MySQL Developer (2024-2025)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                        veritatis dolores aperiam similique rem sunt tempora error tempore quibusdam! Unde beatae
+                        voluptas recusandae nemo eveniet?</div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">C Developer (2025-2026)</div>
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                        veritatis dolores aperiam similique rem sunt tempora error tempore quibusdam! Unde beatae
+                        voluptas recusandae nemo eveniet?</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="foot">
+        <div class="email">
+            Email Id:-<span class="grey">www.karanpaidumkar2007@gmail.com</span>
+        </div>
+        <div class="phone">
+            Mobile Number:- <span class="grey">+91 930085456</span>
+        </div>
+        <div class="social-icon">
+            <a href="https://www.instagram.com/karanpdmkr07"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/karan-paidumkar-874a09378/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.snapchat.com/add/karanpaidumkard?share_id=Ai2LPswOVfg&locale=en-GB"><i
+                    class="fa-brands fa-snapchat"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/karanpaidumkar"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
